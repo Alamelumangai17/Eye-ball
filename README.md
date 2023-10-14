@@ -1,29 +1,22 @@
 # Eye-ball
-This is an HTML document that creates a simple "Eye Movement" effect using HTML, CSS, and JavaScript. Here's a description of its components:
 
-Steps to run the project:
+Description:
 
-step 1. HTML Structure:
-   - The document starts with the usual HTML5 structure, including the <!DOCTYPE html> declaration.
-   - It sets the document's language to English (<html lang="en">).
-   - Inside the <head> section, there are meta tags for character encoding and viewport settings, as well as a title for the page.
-   - The <style> section contains CSS styles for the page's elements.
-   - The <body> section contains the content of the webpage.
+This HTML document creates a simple interactive face with moving eyes that follow the user's mouse cursor. The face consists of a yellow circle with two eyes, and the eyes' black pupils follow the mouse movement.
 
-step 2. CSS Styles:
-   - The CSS styles define the appearance of the "Eye Movement" effect.
-   - It sets the background color of the <body> to a blueish color (#3172a4).
-   - The .container class centers its contents both vertically and horizontally.
-   - The .eye class defines the appearance of the eye shape, a white circle with a border.
-   - The .eyeball class represents the black pupil of the eye.
+How to run the code:
 
-step 3. JavaScript:
-   - JavaScript is used to create the eye movement effect.
-   - It selects the elements with the class "eyeball" and stores them in the eyeballs variable.
-   - An event listener is added to the document for the "mousemove" event.
-   - When the mouse is moved, the event's clientX and clientY properties are used to calculate the new position (x and y) for the eyeballs relative to the window's width and height.
-   - The position of both eyeballs is updated to follow the mouse cursor by changing their left and top CSS properties.
-    
-Future Improvements
+step1:Save the HTML file with .html extension.
+
+step2:Click the "Go Live" button.A new browser window will open, displaying EyeBall moving.
+
+Future Enhancement:
+
+1)Add facial expressions or animations to make the interactive face more engaging.
+
+2)Implement user interaction, such as clicking on the eyes to trigger actions or reactions.
+
+
+
 
 Overall, this code creates two eyes that follow the movement of the mouse cursor, creating a fun and interactive "Eye Movement" effect on the webpage.
