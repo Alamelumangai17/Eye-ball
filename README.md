@@ -1,7 +1,7 @@
 # Eye-ball
 This is an HTML document that creates a simple "Eye Movement" effect using HTML, CSS, and JavaScript. Here's a description of its components:
 
-Steps to run the code:
+Steps to run the project:
 
 step 1. HTML Structure:
    - The document starts with the usual HTML5 structure, including the <!DOCTYPE html> declaration.
@@ -24,6 +24,6 @@ step 3. JavaScript:
    - When the mouse is moved, the event's clientX and clientY properties are used to calculate the new position (x and y) for the eyeballs relative to the window's width and height.
    - The position of both eyeballs is updated to follow the mouse cursor by changing their left and top CSS properties.
     
-Future Implementations of the code
+Future Improvements
 
 Overall, this code creates two eyes that follow the movement of the mouse cursor, creating a fun and interactive "Eye Movement" effect on the webpage.
